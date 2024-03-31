@@ -48,7 +48,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.ganxiaofeng123' //your git id
                 artifactId = 'Fuyong1' //your-repository
-                version = '7.0.0' // As same as the Tag
+                version = 'V7.0.0' // As same as the Tag
 
                 // use this if you're using third party in your lib
             }
