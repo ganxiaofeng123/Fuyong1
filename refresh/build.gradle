@@ -50,10 +50,9 @@ afterEvaluate {
                 artifactId = 'Fuyong1' //your-repository
                 version = '7.0.0' // As same as the Tag
 
-                artifact("$buildDir/outputs/aar/${artifactId}-release.aar") // here is difference, I used `from components...` before
-
                 // use this if you're using third party in your lib
-                }
             }
         }
     }
+}
+
